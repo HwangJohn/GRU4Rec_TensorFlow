@@ -12,8 +12,8 @@ import argparse
 import model
 import evaluation
 
-PATH_TO_TRAIN = '/PATH/TO/rsc15_train_full.txt'
-PATH_TO_TEST = '/PATH/TO/rsc15_test.txt'
+PATH_TO_TRAIN = '/Users/we/PycharmProjects/GRU4Rec_TensorFlow/data/rsc_full_sample.txt'
+PATH_TO_TEST = '/Users/we/PycharmProjects/GRU4Rec_TensorFlow/data/rsc_test_sample.txt'
 
 class Args():
     is_training = False
